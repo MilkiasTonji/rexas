@@ -17,7 +17,7 @@ const Footer = () => {
             }}
           ></div>
           <div className="flex flex-col items-start justify-center absolute right-6 left-0 top-[42px]">
-            <div className="pt-6  flex flex-row gap-0 items-start justify-center w-[100%] shrink-0 max-w-[1512px] relative">
+            <div className="pt-6 sm:pt-0  flex flex-row gap-0 items-start justify-center w-[100%] shrink-0 max-w-[1512px] relative">
               <div className="pr-[23px] flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
                 <img
                   className="shrink-0 w-5 h-5 relative overflow-visible"
@@ -50,7 +50,7 @@ const Footer = () => {
 
             <div className="flex flex-col w-full">
               <div
-                className="pt-6  flex flex-row gap-0   items-start justify-center w-[100%] shrink-0 max-w-[1512px] relative"
+                className="pt-6  flex flex-row gap-0   items-start justify-center w-[100%] shrink-0  relative"
                 style={{ margin: "0px 0 0 0" }}
               >
                 <div className="pr-8 sm:flex sm:flex-col hidden gap-0 items-start justify-start self-stretch shrink-0 relative">
@@ -164,7 +164,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="pt-6 px-12 bg-red-600 pb-6 flex flex-col gap-0 items-center justify-start absolute right-6 left-6 top-[137.4px]">
+          <div className="pt-6 px-12  pb-12 flex flex-col gap-0 items-center justify-start absolute right-6 left-6 top-[137.4px]">
             <div
               className="text-[#939397] text-center sm:block hidden font-['Poppins-Regular',_sans-serif] text-[13px] leading-[19.5px] font-normal relative  items-center justify-center"
               style={{ letterSpacing: "0.12px" }}
@@ -177,13 +177,15 @@ const Footer = () => {
             </div>
 
             <div
-              className="text-[#939397] text-center sm:flex  font-['Poppins-Regular',_sans-serif] text-[13px] leading-[19.5px] font-normal relative flex items-center justify-center"
-              style={{ letterSpacing: "0.12px" }}
+              className="text-[#939397] px-2 text-xs  text-center sm:hidden  font-['Poppins-Regular',_sans-serif] text-[13px] leading-[19.5px] font-normal relative flex items-center justify-center"
+              // style={{ letterSpacing: "0.12px" }}
             >
-              Disclaimer: Cryptocurrency may be unregulated in your
-              jurisdiction. The value of cryptocurrencies may fluctuate
-              <br />
-              Profits may be subject to capital gains or other taxes applicable
+              Disclaimer: Cryptocurrency may be unregulated in your jurisdiction.
+              <br/>
+               The value of cryptocurrencies may fluctuate Profits may be 
+              <br/>
+              
+               subject to capital gains or other taxes applicable
               in your jurisdiction
             </div>
           </div>

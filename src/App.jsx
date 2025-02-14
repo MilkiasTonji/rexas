@@ -85,34 +85,34 @@ function App() {
     >
       <div className="self-stretch shrink-0 h-[7597px] relative">
      
-        {/* <Navbar /> */}
+        <Navbar />
 
         {/* Unlockthe World of Asset */}
-        {/* <Description/> */}
+        <Description/>
 
         {/* Rexas Token Builder*/}
-        {/* <div className="pr-48 pl-44 flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[2331.01px]">
+        <div className="pr-48 pl-44 flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[2331.01px]">
           <div className="pr-6 flex flex-col items-start justify-start shrink-0 w-[1536px] max-w-[1536px] relative">
             <RexasEcosystem/>
             <RexasSection/>
           </div>
-        </div> */}
+        </div>
 
-        {/* <Feature /> */}
+        <Feature />
 
-        {/* <Topbar /> */}
+        <Topbar />
 
-        {/* <RexasFinance /> */}
+        <RexasFinance />
 
         {/* Tokens: 1,000,000,000 */}
-        {/* <div
-          className=" pr-6 pl-6 flex flex-col gap-0 items-start justify-start w-[1536px] max-w-[1536px] absolute left-[50%] top-[4420.46px]"
+        <div
+          className=" pr-6 pl-6 flex flex-col gap-0 items-start justify-start  absolute left-[50%] top-[4420.46px]"
           style={{ transform: "translateX(-50%)" }}
         >
-          <div className="pr-20 pb-[6.4px] pl-20 flex flex-col gap-8 items-start justify-start self-stretch shrink-0 relative">
+          <div className=" pb-[6.4px]  flex flex-col gap-8 items-start justify-start self-stretch shrink-0 relative">
             <div className="flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
               <div
-                className="text-left font-['Inter-Regular',_sans-serif] text-[66px] leading-[99px] font-normal relative self-stretch flex items-center justify-start"
+                className="text-left font-['Inter-Regular',_sans-serif]  text-[24px] sm:text-[66px]  font-normal relative self-stretch flex items-center justify-start"
                 style={{
                   background:
                     "linear-gradient(90.14deg, rgba(232, 116, 158, 1) 26.21999979019165%, rgba(240, 185, 11, 1) 84.22999978065491%)",
@@ -125,12 +125,12 @@ function App() {
                 TOKENOMICS
               </div>
             </div>
-            <div className="rounded-[29px] border-solid border-[#f0b90b] border self-stretch shrink-0 h-[130px] relative">
-              <div className="pr-[0.02px] flex flex-row gap-0 items-center justify-center flex-wrap content-center w-[1342.4px] absolute left-[-15.2px] top-[calc(50%_-_48px)]">
-                <div className="border-solid border-[#f0b90b] border-r-[5.6px] pt-4 pr-[5.6px] pl-4 flex flex-col gap-0 items-start justify-start shrink-0 h-20 max-w-[492.21px] relative">
-                  <div className="pr-[80.87px] pl-[80.88px] flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
+            <div className="rounded-[29px] border-solid border-[#f0b90b] border self-stretch shrink-0 h-[100px]  relative">
+              <div className="pr-[0.02px]  flex flex-row gap-0 items-center justify-center flex-wrap content-center  absolute w-full">
+                <div className="border-solid border-[#f0b90b] border-r-[5.6px] pt-4 pr-[5.6px] pl-4 flex flex-col gap-0 items-start justify-start shrink-0 h-20  relative">
+                  <div className=" flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
                     <div
-                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-3xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
+                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-2xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
                       style={{ letterSpacing: "0.28px" }}
                     >
                       Name: Rexas Finance
@@ -138,19 +138,19 @@ function App() {
                   </div>
                 </div>
                 <div className="border-solid border-[#f0b90b] border-r-[5.6px] pt-4 pr-[5.6px] pl-4 flex flex-col gap-0 items-start justify-start shrink-0 h-20 max-w-[357.97px] relative">
-                  <div className="pr-[76.42px] pl-[76.41px] flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
+                  <div className="px-4 flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
                     <div
-                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-3xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
+                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-2xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
                       style={{ letterSpacing: "0.28px" }}
                     >
                       Symbol: RXS
                     </div>
                   </div>
                 </div>
-                <div className="pt-4 pl-4 flex flex-col gap-0 items-start justify-start shrink-0 h-20 max-w-[492.21px] relative">
-                  <div className="pr-[69.92px] pl-[69.93px] flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
+                <div className="pt-4 pl-4 flex flex-col gap-0 items-start justify-start shrink-0 h-20 bg-red-600 relative">
+                  <div className="px-4 flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
                     <div
-                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-3xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
+                      className="text-[#ffffff] text-center font-['SpaceGrotesk-Bold',_sans-serif] text-2xl leading-[45px] font-bold relative self-stretch flex items-center justify-center"
                       style={{ letterSpacing: "0.28px" }}
                     >
                       Tokens: 1,000,000,000
@@ -241,9 +241,9 @@ function App() {
               alt="Tokenomics Image"
             />
           </div>
-        </div> */}
+        </div>
 
-        {/* <Faq /> */}
+        <Faq />
         <Footer />
       </div>
     </div>
