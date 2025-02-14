@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="pt-3 pr-48 pb-3 pl-48 flex flex-col gap-0 items-center justify-start h-[92px] absolute right-0 left-0 top-[38.5px]">
+    <div className="pt-3 pb-3 px-10 flex flex-col gap-0 items-center justify-start h-[92px] absolute right-0 left-0 top-[38.5px]">
       {/* Desktop Navbar */}
-      <div className="hidden lg:flex pr-6 pl-6 flex-col gap-0 items-start justify-start shrink-0 w-[1536px] max-w-[1536px] relative">
+      <div className="hidden lg:flex pr-6 pl-6 flex-col gap-0 items-start justify-start shrink-0 w-full relative">
         <div className="pr-[16.01px] pl-4 flex flex-row items-center justify-between self-stretch shrink-0 relative">
           <div className="flex flex-col gap-0 items-start justify-start shrink-0 relative">
             <div className="pb-[0.6px] flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
@@ -30,9 +30,11 @@ const Navbar = () => {
               "How To Buy",
               "Contact Us",
             ].map((item, index) => (
-              <div
-                className="pr-8 flex flex-col gap-0 items-start justify-start shrink-0 relative"
+              <a
+                className="pr-8 flex flex-col gap-2 items-start justify-start shrink-0 relative"
                 key={index}
+                style={{textDecoration: "none"}}
+                href="#"
               >
                 <div
                   className="text-[#ffffff] text-left font-['Poppins-SemiBold',_sans-serif] text-base leading-6 font-semibold relative flex items-center justify-start"
@@ -40,7 +42,7 @@ const Navbar = () => {
                 >
                   {item} 
                 </div>
-              </div>
+              </a>
             ))}
           </div>
           <AnimatedCardContainer

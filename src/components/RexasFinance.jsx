@@ -53,20 +53,9 @@ const RexasFinance = () => {
                   </div>
                 </div>
                 <div className="pr-[322.83px] pl-[322.81px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[42.4px]">
-                  <div
-                
-                    className="text-center font-['Inter-Regular',_sans-serif] text-5xl leading-[72px] font-normal relative flex items-center justify-center"
-                    style={{
-                      background:
-                        "linear-gradient(-89.8deg, rgba(240, 185, 11, 1) 0%, rgba(232, 116, 158, 1) 100%)",
-                      backgroundClip: "text",
-                      WebkitBackgroundClip: "text",
-                      WebkitTextFillColor: "transparent",
-                      letterSpacing: "0.45px",
-                    }}
-                  >
-                    Rexas Finance
-                  </div>
+                <p className="text-[48px] font-extrabold font-accelerator bg-gradient-to-r leading-[1.5] from-yellow-500 to-pink-500 bg-clip-text text-transparent">
+                Rexas Finance
+              </p>
                 </div>
                 <div className=" flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[114.4px]">
                   <div
@@ -246,7 +235,7 @@ const RexasFinance = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="p-0 flex flex-row items-start justify-between self-stretch shrink-0 relative">
+                    <div className="p-0 flex flex-row items-start justify-between self-stretch shrink-0 gap-3 relative">
                       <div className="bg-[#f0b90b] rounded-[10px] border-solid border-[#ffffff] border pt-[5.61px] pr-[34.85px] pb-[5.61px] pl-[34.85px] flex flex-row gap-0 items-center justify-center flex-1 h-11 relative">
                         <div className="flex flex-col gap-0 items-start justify-start shrink-0 w-[78px] relative overflow-hidden">
                           <div className="p-0 flex flex-col gap-0 items-center justify-center shrink-0 w-[78px] h-[32.78px] relative overflow-hidden">
@@ -293,7 +282,7 @@ const RexasFinance = () => {
                               <span className="amount-in-eth-you-pay-span">
                                 Amount in
                               </span>
-                              <span className="amount-in-eth-you-pay-span2">
+                              <span className="amount-in-eth-you-pay-span2 font-bold px-1">
                                 ETH
                               </span>
                               <span className="amount-in-eth-you-pay-span3">
@@ -351,7 +340,7 @@ const RexasFinance = () => {
                                 <span className="amount-in-rxs-you-receive-span">
                                   Amount in
                                 </span>
-                                <span className="amount-in-rxs-you-receive-span2">
+                                <span className="amount-in-rxs-you-receive-span2 font-bold px-1">
                                   RXS
                                 </span>
                                 <span className="amount-in-rxs-you-receive-span3">
