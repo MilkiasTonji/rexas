@@ -11,11 +11,12 @@ import component17 from "../assets/component-17.svg";
 import component18 from "../assets/component-18.svg";
 import component19 from "../assets/component-19.svg";
 import component110 from "../assets/component-110.svg";
+import AnimatedCardContainer from "./AnimatedCardContainer";
 
 const RexasFinance = () => {
   return (
     <div>
-      <div className="  flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[104.5px]">
+      <div className="flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[104.5px]">
         <div className="pr-6 flex flex-col gap-0 items-start justify-start shrink-0 w-[1200px] max-w-[1200px] relative">
           <div className="pt-8 pr-6 pb-8 pl-6 flex flex-col gap-0 items-start justify-center shrink-0 w-[1176px] relative">
             <div className="pt-6 pl-6 flex flex-row gap-0 items-center justify-start w-[100%] shrink-0 max-w-[1176px] relative">
@@ -107,103 +108,7 @@ const RexasFinance = () => {
                   </div>
                 </div>
                 <div className=" flex flex-row gap-0 items-start justify-center min-h-[80px] absolute right-0 left-0 top-[404.4px]">
-                  <div className="pr-5 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
-                    <div
-                      className="bg-[rgba(255,255,255,0.00)] rounded-[14px] shrink-0 w-44 h-[50px] relative overflow-hidden"
-                      style={{
-                        boxShadow:
-                          "0px 2px 25px 0px rgba(0, 0, 0, 0.5), 0px 2px 10px 0px rgba(0, 0, 0, 0.4)",
-                      }}
-                    >
-                      <div
-                        className="rounded-[14px] w-[160%] h-[50px] absolute right-[-29.89%] left-[-30.11%] top-[-3px]"
-                        style={{
-                          background:
-                            "linear-gradient(-89.7deg, rgba(240, 185, 11, 1) 50%, rgba(232, 116, 158, 1) 50%)",
-                        }}
-                      ></div>
-                      <div
-                        className="rounded-[14px] w-[170px] h-10 absolute left-[3px] top-[5px] overflow-hidden"
-                        style={{
-                          background:
-                            "linear-gradient(83.69deg, rgba(48, 48, 78, 1) 15%, rgba(39, 40, 60, 1) 60%)",
-                          boxShadow:
-                            "inset 0px 18px 36px -18px rgba(0, 0, 0, 0.5), inset 0px 30px 60px -12px rgba(0, 0, 0, 0.4)",
-                        }}
-                      >
-                        <div
-                          className="rounded-[14px] pt-2.5 pr-[21.76px] pb-2.5 pl-[21.75px] flex flex-row gap-0 items-center justify-center w-[170px] h-[45px] absolute left-0 top-[50%]"
-                          style={{
-                            background:
-                              "radial-gradient(closest-side, rgba(69, 86, 102, 1) 0%, rgba(34, 34, 34, 1) 90%)",
-                            transform: "translate(0, -50%)",
-                          }}
-                        >
-                          <div className="flex flex-row gap-0 items-center justify-center flex-1 relative">
-                            <div className="pr-[5px] flex flex-col gap-0 items-start justify-start shrink-0 w-[30px] h-[25px] relative">
-                              <div className="flex flex-col gap-0 items-center justify-center shrink-0 w-[25px] h-[25px] relative overflow-hidden">
-                                <img
-                                  className="flex-1 w-[25px] h-[auto] relative overflow-visible"
-                                  src="component-14.svg"
-                                />
-                              </div>
-                            </div>
-                            <div
-                              className="text-[#f0b90b] text-center font-['Poppins-Medium',_sans-serif] text-base leading-6 font-medium relative flex items-center justify-center"
-                              style={{ letterSpacing: "0.15px" }}
-                            >
-                              Whitepaper
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pr-5 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
-                    <div
-                      className="bg-[rgba(255,255,255,0.00)] rounded-[14px] shrink-0 w-[120px] h-[50px] relative overflow-hidden"
-                      style={{
-                        boxShadow:
-                          "0px 2px 25px 0px rgba(0, 0, 0, 0.5), 0px 2px 10px 0px rgba(0, 0, 0, 0.4)",
-                      }}
-                    >
-                      <div
-                        className="rounded-[14px] w-[160%] h-[50px] absolute right-[-15.83%] left-[-44.17%] top-[-3px]"
-                        style={{
-                          background:
-                            "linear-gradient(-89.56deg, rgba(240, 185, 11, 1) 50%, rgba(232, 116, 158, 1) 50%)",
-                        }}
-                      ></div>
-                      <div
-                        className="rounded-[14px] w-[80%] h-10 absolute right-[10%] left-[10%] top-[5px] overflow-hidden"
-                        style={{
-                          background:
-                            "linear-gradient(78.92deg, rgba(48, 48, 78, 1) 15%, rgba(39, 40, 60, 1) 60%)",
-                          boxShadow:
-                            "inset 0px 18px 36px -18px rgba(0, 0, 0, 0.5), inset 0px 30px 60px -12px rgba(0, 0, 0, 0.4)",
-                        }}
-                      >
-                        <div
-                          className="rounded-[14px] pt-[10.5px] pr-[8.9px] pb-[10.5px] pl-[8.89px] flex flex-row gap-0 items-center justify-center w-[115px] h-[45px] absolute left-[50%] top-[50%]"
-                          style={{
-                            background:
-                              "radial-gradient(closest-side, rgba(69, 86, 102, 1) 0%, rgba(34, 34, 34, 1) 90%)",
-                            transform: "translate(-50%, -50%)",
-                          }}
-                        >
-                          <div className="flex flex-row gap-0 items-center justify-center flex-1 relative">
-                            <div
-                              className="text-[#ffffff] text-center font-['Poppins-Medium',_sans-serif] text-base leading-6 font-medium relative flex-1 flex items-center justify-center"
-                              style={{ letterSpacing: "0.15px" }}
-                            >
-                              CertiK Audit
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <AnimatedCardContainer isConnectWallet={false} />
                 </div>
                 <div className=" flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[507.8px]">
                   <div
