@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null); // Manage which question is open
@@ -51,61 +51,61 @@ const Faq = () => {
   };
   return (
     <div>
-              <div className=" pr-[360px] pl-[360px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[6098.7px]">
-          <div className="pr-6 pl-6 flex flex-col gap-10 items-start justify-start shrink-0 w-[1200px] max-w-[1200px] relative">
-            <div className="pr-[521.35px] pl-[521.35px] flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
-              <div
-                className="text-[#ffffff] text-center font-['Inter-Bold',_sans-serif] text-[32px] leading-[48px] font-bold relative self-stretch flex items-center justify-center"
-                style={{ letterSpacing: "0.3px" }}
-              >
-                FAQs
-              </div>
+      <div className=" w-auto flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[6098.7px]">
+        <div className="pr-6 pl-6 flex flex-col gap-10 items-start justify-start shrink-0 sm:w-[1000px] sm:max-w-[1000px] max-w-[400px]  relative">
+          <div className=" flex flex-col gap-0 items-center justify-start self-stretch shrink-0 relative">
+            <div
+              className="text-[#ffffff] text-center font-['Inter-Bold',_sans-serif] text-[32px] leading-[48px] font-bold relative self-stretch flex items-center justify-center"
+              style={{ letterSpacing: "0.3px" }}
+            >
+              FAQs
             </div>
-            <div className="pb-20 flex flex-col gap-10 items-start justify-start self-stretch shrink-0 relative">
-              {faqData.map((faq, index) => (
+          </div>
+          <div className="pb-20 flex flex-col gap-10 items-start justify-start self-stretch shrink-0 relative">
+            {faqData.map((faq, index) => (
+              <div
+                key={index}
+                className="rounded border-solid border-[#bdbdcb] border-b-[0.8px] pb-[0.8px] flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative"
+              >
                 <div
-                  key={index}
-                  className="rounded border-solid border-[#bdbdcb] border-b-[0.8px] pb-[0.8px] flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative"
+                  className=" flex flex-row gap-3  items-center justify-between self-stretch shrink-0 min-h-[48px] relative cursor-pointer"
+                  onClick={() => handleToggle(index)}
                 >
-                  <div
-                    className="pr-4 pl-4 flex flex-row gap-0 items-center justify-between self-stretch shrink-0 min-h-[48px] relative cursor-pointer"
-                    onClick={() => handleToggle(index)}
-                  >
-                    <div className="pt-3 pb-3 flex flex-col gap-0 items-start justify-start flex-1 relative">
-                      <div className="flex flex-row gap-0 items-start justify-start self-stretch shrink-0 relative">
-                        <div className="pt-2 pr-4 pb-2 pl-4 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
-                          <div
-                            className="text-[#ffffff] text-left font-['Poppins-Medium',_sans-serif] text-3xl leading-[45px] font-medium relative flex items-center justify-start"
-                            style={{ letterSpacing: "0.15px" }}
-                          >
-                            {faq.question}
-                          </div>
+                  <div className=" flex flex-col gap-0 items-start justify-start flex-1 relative">
+                    <div className="flex flex-row gap-0 items-start justify-start self-stretch shrink-0 relative">
+                      <div className=" flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
+                        <div
+                          className="text-[#ffffff] text-left font-['Poppins-Medium',_sans-serif] text-xs sm:text-3xl leading-[45px] font-medium relative flex items-center justify-start"
+                          style={{ letterSpacing: "0.15px" }}
+                        >
+                          {faq.question}
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-row gap-0 items-start justify-start shrink-0 relative">
-                      <div
-                        className={`shrink-0 text-2xl font-bold ${
-                          openIndex === index ? "text-white" : "text-gray-300"
-                        }`}
-                      >
-                        {openIndex === index ? "-" : "+"}
-                      </div>
+                  </div>
+                  <div className="flex flex-row gap-0 items-start justify-start shrink-0 relative">
+                    <div
+                      className={`shrink-0 text-sm sm:text-2xl font-bold ${
+                        openIndex === index ? "text-white" : "text-gray-300"
+                      }`}
+                    >
+                      {openIndex === index ? "-" : "+"}
                     </div>
                   </div>
-                  {openIndex === index && (
-                    <div className="pt-4 pb-4 pl-6 pr-6 text-[#ffffff] text-xl font-light">
-                      {faq.answer}
-                    </div>
-                  )}
                 </div>
-              ))}
-            </div>
+
+                {openIndex === index && (
+                  <div className="text-xs pt-4 pb-4 pl-6 pr-6 text-[rgb(151,151,154)] sm:text-xl font-light">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Faq
+export default Faq;

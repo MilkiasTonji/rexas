@@ -9,7 +9,7 @@ const Topbar = () => {
             {[...Array(2)].map((_, loopIndex) => (
               <div
                 key={loopIndex}
-                className="flex flex-row items-center justify-start"
+                className="flex flex-row items-center justify-start mr-64"
               >
                 <p className="text-white text-[15px] font-normal leading-[22.5px] mx-4">
                   <strong>Please Note:</strong> REXAS Team will never send you

@@ -42,9 +42,9 @@ const Feature = () => {
   return (
     <div>
       <div className=" pt-[31.3px] pb-8 flex flex-col gap-16 items-start justify-start absolute right-0 left-0 top-[1572.5px]">
-        <div className="flex items-center justify-center self-stretch relative px-[884.78px] py-[0.7px]">
+        <div className="flex items-center justify-center self-stretch relative  py-[0.7px]">
           <div
-            className=" text-white text-[26px] leading-[39px] font-medium text-center whitespace-nowrap px-4"
+            className=" text-white text-[26px] self-center leading-[39px] font-medium text-center whitespace-nowrap px-4"
             style={{ letterSpacing: "0.24px" }}
           >
             Featured In
@@ -58,7 +58,7 @@ const Feature = () => {
                 {images.map((src, index) => (
                   <img
                     key={index}
-                    className="w-[200px] h-auto mx-2"
+                    className="w-[200px] h-auto mx-6"
                     src={src}
                     alt={`Feature Image ${index + 1}`}
                   />
@@ -81,7 +81,7 @@ const Feature = () => {
         }
 
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 80s linear infinite;
         }
         `}
       </style>

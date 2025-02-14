@@ -12,21 +12,17 @@ import component18 from "../assets/component-18.svg";
 import component19 from "../assets/component-19.svg";
 import component110 from "../assets/component-110.svg";
 
-
 const RexasFinance = () => {
   return (
     <div>
-      <div className=" pr-[360px] pl-[360px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[104.5px]">
+      <div className="  flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[104.5px]">
         <div className="pr-6 flex flex-col gap-0 items-start justify-start shrink-0 w-[1200px] max-w-[1200px] relative">
           <div className="pt-8 pr-6 pb-8 pl-6 flex flex-col gap-0 items-start justify-center shrink-0 w-[1176px] relative">
             <div className="pt-6 pl-6 flex flex-row gap-0 items-center justify-start w-[100%] shrink-0 max-w-[1176px] relative">
               <div className="shrink-0 w-[1104px] h-[526.4px] relative">
-                <div className="pr-[463px] pl-[463px] flex flex-row gap-0 items-center justify-center absolute right-0 left-0 top-0">
+                <div className="sm:pr-[463px] sm:pl-[463px] flex flex-row gap-0 items-center justify-center absolute right-0 left-0 top-0">
                   <div className="pr-[23px] pb-[6.4px] flex flex-col gap-0 items-start justify-start shrink-0 relative">
-                    {/* <img
-                        className="shrink-0 w-[25px] h-[25px] relative overflow-visible"
-                        src="component-10.svg"
-                      /> */}
+                 
                     <img
                       className="shrink-0 w-[25px] h-[25px] relative overflow-visible"
                       src={xImage}
@@ -57,18 +53,7 @@ const RexasFinance = () => {
                 </div>
                 <div className="pr-[322.83px] pl-[322.81px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[42.4px]">
                   <div
-                    // className="text-center font-['Inter-Regular',_sans-serif] text-5xl leading-[72px] font-normal relative flex items-center justify-center"
-                    // style="
-                    //   background: linear-gradient(
-                    //     -89.8deg,
-                    //     rgba(240, 185, 11, 1) 0%,
-                    //     rgba(232, 116, 158, 1) 100%
-                    //   );
-                    //   background-clip: text;
-                    //   -webkit-background-clip: text;
-                    //   -webkit-text-fill-color: transparent;
-                    //   letter-spacing: 0.45px;
-                    // "
+                
                     className="text-center font-['Inter-Regular',_sans-serif] text-5xl leading-[72px] font-normal relative flex items-center justify-center"
                     style={{
                       background:
@@ -82,9 +67,16 @@ const RexasFinance = () => {
                     Rexas Finance
                   </div>
                 </div>
-                <div className="pr-[90.28px] pl-[90.26px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[114.4px]">
+                <div className=" flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[114.4px]">
                   <div
-                    className="text-[#ffffff] text-center font-['Poppins-SemiBold',_sans-serif] text-5xl leading-[72px] font-semibold relative flex items-center justify-center"
+                    className="text-[#ffffff] text-center font-['Poppins-SemiBold',_sans-serif] flex text-2xl sm:hidden leading-[72px] font-semibold relative  items-center justify-center"
+                    style={{ letterSpacing: "0.45px" }}
+                  >
+                    Tokenize Real World Assets Anything, Anywhere
+                  </div>
+
+                  <div
+                    className="text-[#ffffff] text-center font-['Poppins-SemiBold',_sans-serif] hidden text-5xl sm:flex leading-[72px] font-semibold relative  items-center justify-center"
                     style={{ letterSpacing: "0.45px" }}
                   >
                     Tokenize Real World Assets Anything,
@@ -92,7 +84,8 @@ const RexasFinance = () => {
                     Anywhere
                   </div>
                 </div>
-                <div className="pt-6 pr-[110.4px] pl-[110.4px] flex flex-row gap-0 items-start justify-center absolute right-0 left-0 top-[258.4px]">
+
+                <div className="pt-6  flex flex-row gap-0 items-start justify-center absolute right-0 left-0 top-[258.4px]">
                   <div className="pr-[1.32px] pl-[1.33px] flex flex-col gap-0 items-center justify-start self-stretch flex-1 relative">
                     <div
                       className="text-[#ffffff] text-center font-['Poppins-Regular',_sans-serif] text-[15px] leading-[22.5px] font-normal relative self-stretch flex items-center justify-center"
@@ -113,7 +106,7 @@ const RexasFinance = () => {
                     </div>
                   </div>
                 </div>
-                <div className="pr-96 pl-96 flex flex-row gap-0 items-start justify-center min-h-[80px] absolute right-0 left-0 top-[404.4px]">
+                <div className=" flex flex-row gap-0 items-start justify-center min-h-[80px] absolute right-0 left-0 top-[404.4px]">
                   <div className="pr-5 flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative">
                     <div
                       className="bg-[rgba(255,255,255,0.00)] rounded-[14px] shrink-0 w-44 h-[50px] relative overflow-hidden"
@@ -212,7 +205,7 @@ const RexasFinance = () => {
                     </div>
                   </div>
                 </div>
-                <div className="pr-[426.56px] pb-[0.6px] pl-[426.55px] flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[507.8px]">
+                <div className=" flex flex-col gap-0 items-center justify-start absolute right-0 left-0 top-[507.8px]">
                   <div
                     className="text-[#ffffff] text-center font-['Poppins-Regular',_sans-serif] text-xs leading-[18px] font-normal relative flex items-center justify-center"
                     style={{
@@ -225,7 +218,7 @@ const RexasFinance = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-6 pr-[248.4px] pl-[272.4px] flex flex-row gap-0 items-center justify-center w-[100%] shrink-0 max-w-[1176px] relative">
+            <div className="pt-6 sm:w-1/5 self-center flex flex-row gap-0 items-center justify-center w-[100%] shrink-0 max-w-[1176px] relative">
               <div
                 className="rounded-[25px] p-2 flex flex-col gap-0 items-start justify-start flex-1 relative"
                 style={{
@@ -404,46 +397,6 @@ const RexasFinance = () => {
                             </span>
                           </div>
                         </div>
-
-                        {/* <div className="bg-[#e3e1e1] rounded-[14px] pt-[6.5px] pb-[6.5px] flex flex-row items-center justify-between self-stretch shrink-0 h-[53px] relative">
-                            <div className="flex-1 h-10 relative overflow-hidden">
-                              <div className="pt-[0.8px] pb-[0.8px] flex flex-col gap-0 items-start justify-start absolute right-[17px] left-[15px] top-[7.6px] overflow-hidden">
-                                <div className="text-[#757575] text-left font-['Poppins-Medium',_sans-serif] text-[17px] font-medium relative flex items-center justify-start">
-                                  Enter Amount
-                                </div>
-                              </div>
-                              <div className="pr-[15px] flex flex-row gap-0 items-center justify-center absolute right-0.5 left-[15px] top-[7.6px]">
-                                <div className="flex-1 h-[24.8px] relative"></div>
-                              </div>
-                            </div>
-                            <div
-                              className="flex flex-row gap-0 items-center justify-start shrink-0 relative"
-                              style={{ margin: "0 0 0 0px" }}
-                            >
-                              <div
-                                className="rounded-[10px] pt-[2.45px] pr-[12.18px] pb-[3.55px] pl-[12.17px] flex flex-row gap-0 items-center justify-center shrink-0 w-16 h-[38px] min-w-[64px] relative"
-                                style={{
-                                  background:
-                                    "linear-gradient(-89deg, rgba(240, 185, 11, 1) 0%, rgba(232, 116, 158, 1) 100%)",
-                                }}
-                              >
-                                <div
-                                  className="text-[#1b1c22] text-center font-['Poppins-SemiBold',_sans-serif] text-lg leading-[31.5px] font-semibold relative flex items-center justify-center"
-                                  style={{ letterSpacing: "0.51px" }}
-                                >
-                                  Max
-                                </div>
-                                <div className="rounded-[10px] shrink-0 absolute right-0 left-0 bottom-0 top-0 overflow-hidden"></div>
-                              </div>
-                              <div className="pr-2.5 pl-2.5 flex flex-col gap-0 items-start justify-start shrink-0 w-[47px] relative">
-                                <img
-                                  className="shrink-0 w-[27px] h-[27px] relative overflow-hidden"
-                                  style={{ objectFit: "cover" }}
-                                  src="eth-1-fca-4-c-7-e-82-d-7-ac-693785-e-png0.png"
-                                />
-                              </div>
-                            </div>
-                          </div> */}
                         <div className="bg-[#e3e1e1] rounded-[14px] pt-[6.5px] pb-[6.5px] flex flex-row items-center justify-between self-stretch shrink-0 h-[53px] relative">
                           <div className="flex-1 h-10 relative overflow-hidden">
                             <input
@@ -503,30 +456,6 @@ const RexasFinance = () => {
                             </div>
                           </div>
 
-                          {/* <div className="bg-[#e3e1e1] rounded-[14px] pt-[6.5px] pb-[6.5px] flex flex-row items-center justify-between self-stretch shrink-0 h-[53px] relative">
-                              <div className="flex-1 h-10 relative overflow-hidden">
-                                <div className="pt-[0.8px] pb-[0.8px] flex flex-col gap-0 items-start justify-start absolute right-[17px] left-[15px] top-[7.6px] overflow-hidden">
-                                  <div className="text-[#757575] text-left font-['Poppins-Medium',_sans-serif] text-[17px] font-medium relative flex items-center justify-start">
-                                    0
-                                  </div>
-                                </div>
-                                <div className="pr-[15px] flex flex-row gap-0 items-center justify-center absolute right-0.5 left-[15px] top-[7.6px]">
-                                  <div className="flex-1 h-[24.8px] relative"></div>
-                                </div>
-                              </div>
-                              <div
-                                className="pr-2 flex flex-col gap-0 items-start justify-start shrink-0 w-[37px] relative overflow-hidden"
-                                style={{ margin: "0 0 0 0px" }}
-                              >
-                                <div className="pr-2 flex flex-col gap-0 items-center justify-center shrink-0 w-[37px] h-[29px] relative overflow-hidden">
-                                  <img
-                                    className="shrink-0 w-[29px] h-[29px] relative overflow-visible"
-                                    src="component-17.svg"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                             */}
                           <div className="bg-[#e3e1e1] rounded-[14px] pt-[6.5px] pb-[6.5px] flex flex-row items-center justify-between self-stretch shrink-0 h-[53px] relative">
                             <div className="flex-1 h-10 relative overflow-hidden">
                               <div className="pt-[0.8px] pb-[0.8px] flex flex-col gap-0 items-start justify-start absolute right-[17px] left-[15px] top-[7.6px] overflow-hidden">
@@ -554,16 +483,6 @@ const RexasFinance = () => {
                       </div>
                       <div className="flex flex-col gap-0 items-center justify-center self-stretch shrink-0 relative">
                         <div
-                          // className=" rounded-[14px] border-2 border-solid pt-[8.45px] pr-[164.67px] pb-[9.55px] pl-[164.68px] flex flex-row gap-0 items-center justify-center shrink-0 w-[477.6px] h-[50px] min-w-[64px] relative"
-                          // style={{
-                          //   background:
-                          //     "linear-gradient(-89.7deg, rgba(240, 185, 11, 1) 20.63%, rgba(232, 116, 158, 1) 75.15%)",
-                          //   borderImage:
-                          //     "linear-gradient(90deg, rgba(240, 185, 11, 1) 0%, rgba(255, 255, 255, 1) 100%)",
-                          //   borderImageSlice: 1,
-                          //   boxShadow: "0px 5px 15px 0px rgba(0, 0, 0, 0.35)",
-
-                          // }}
                           className="rounded-[14px] border-3 border-solid pt-[8.45px] pr-[164.67px] pb-[9.55px] pl-[164.68px] flex flex-row gap-0 items-center justify-center shrink-0 w-[477.6px] h-[50px] min-w-[64px] relative"
                           style={{
                             background:
